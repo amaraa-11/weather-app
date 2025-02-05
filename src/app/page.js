@@ -145,7 +145,7 @@ export function Card({ value, city, weather, forecastDate }) {
       }
     } else {
       if (condition.includes("Clear")) {
-        setNightStatus("/Moon.png");
+        setNightStatus("/moon.png");
       } else if (condition.includes("Overcast")) {
         setNightStatus("/nightClouds.png");
       } else if (condition.includes("snow")) {
